@@ -2,11 +2,11 @@
   "name": "gamesir-battery",
   "version": "1.0.0",
   "description": "Read battery levels from connected GameSir controllers",
-  "main": "gamesir-battery.js",
-  "bin": "gamesir-battery.js",
+  "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "start": "node gamesir-battery.js",
-    "watch": "node gamesir-battery.js --watch"
+    "start": "node index.js",
+    "watch": "node index.js --watch"
   },
   "dependencies": {
     "node-hid": "^3.1.2"
